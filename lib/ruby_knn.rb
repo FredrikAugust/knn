@@ -4,8 +4,7 @@ include Math
 
 class Array
   def mean
-    l = count
-    reduce(&:+) / l
+    reduce(&:+) / size
   end
 end
 
